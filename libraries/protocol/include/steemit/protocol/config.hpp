@@ -28,7 +28,7 @@
 #define STEEMIT_MAX_CASHOUT_WINDOW_SECONDS      (60*60*24) /// 1 day
 #define STEEMIT_VOTE_CHANGE_LOCKOUT_PERIOD      (60*10) /// 10 minutes
 #define STEEMIT_UPVOTE_LOCKOUT_HF7              (fc::minutes(1))
-#define STEEMIT_UPVOTE_LOCKOUT_HF17             (fc::minutes(5))
+#define STEEMIT_UPVOTE_LOCKOUT_HF17             (fc::hours(12))
 
 
 #define STEEMIT_ORIGINAL_MIN_ACCOUNT_CREATION_FEE 0
